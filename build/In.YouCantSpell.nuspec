@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>In.YouCantSpell</id>
+    <version>8.2.2</version>
+    <title>You Can't Spell</title>
+    <authors>Aaron Dandy</authors>
+    <summary>A spell check plug-in for ReSharper.</summary>
+    <description>A spell check plug-in for ReSharper. Supports multiple simultaneous dictionaries (e.g. for languages in one project).
+Uses NHunspell: http://nhunspell.sourceforge.net</description>
+    <projectUrl>https://bitbucket.org/aarondandy/youcantspell</projectUrl>
+    <iconUrl>https://bytebucket.org/aarondandy/youcantspell/raw/28ffcbfd57537b4820676d5345afc67f1cf6d0d7/YouCantSpell.png</iconUrl>
+    <licenseUrl>https://bitbucket.org/aarondandy/youcantspell/raw/adcfc60d4a3ff75fca888a7d8c3651a9b6ad4c6a/LICENSE.txt</licenseUrl>	
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <copyright>Copyright &#x00A9; 2014 Aaron Dandy, Markus Hastreiter</copyright>
+    <tags>spellchecker language dictionary spell check</tags>
+    <dependencies>
+        <dependency id="Wave" version="[9.0]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\NHunspell.dll" target="dotFiles" /> 
+    <file src="..\bin\Release\Hunspellx86.dll" target="dotFiles" /> 
+    <file src="..\bin\Release\YouCantSpell.Core.dll" target="dotFiles" /> 
+    <file src="..\bin\Release\YouCantSpell.ReSharper.Core.dll" target="dotFiles" /> 
+    <file src="..\bin\Release\In.YouCantSpell.dll" target="dotFiles" /> 
+    <file src="..\LICENSE.txt" target="dotFiles" /> 
+    <file src="..\NHunspell-License.txt" target="dotFiles" /> 
+    <file src="..\dic\*.*" target="dotFiles\dic" /> 
+  </files>
+</package>
