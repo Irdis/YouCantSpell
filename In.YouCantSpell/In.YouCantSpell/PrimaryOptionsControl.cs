@@ -11,6 +11,7 @@ using JetBrains.Application.UI.Options;
 using JetBrains.Application.UI.Options.OptionPages;
 using JetBrains.Application.UI.UIAutomation;
 using JetBrains.DataFlow;
+using JetBrains.Lifetimes;
 using JetBrains.ReSharper.Feature.Services.Resources;
 using JetBrains.ReSharper.Resources.Shell;
 using JetBrains.UI.CrossFramework;
