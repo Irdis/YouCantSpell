@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>In.YouCantSpell</id>
-    <version>8.3.3</version>
+    <version>8.3.4</version>
     <title>You Can't Spell</title>
     <authors>Aaron Dandy</authors>
     <summary>A spell check plug-in for ReSharper.</summary>
@@ -14,8 +14,8 @@ Uses NHunspell: http://nhunspell.sourceforge.net</description>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
     <copyright>Copyright &#x00A9; 2014 Aaron Dandy, Markus Hastreiter</copyright>
     <tags>spellchecker language dictionary spell check</tags>
-    <dependencies>
-        <dependency id="Wave" version="[191.0.0, 192.0.0)" />
+    <dependencies>        
+	<dependency id="Wave" version="192.0.0" exclude="Build,Analyzers" />
     </dependencies>
   </metadata>
   <files>
